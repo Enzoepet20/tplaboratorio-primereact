@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.inicio, .planetas, .historia {
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .col-4 {
+      width: 100%;
+  }
+}

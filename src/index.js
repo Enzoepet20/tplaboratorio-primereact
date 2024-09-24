@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'primereact/resources/themes/saga-blue/theme.css';  // Tema
+import 'primereact/resources/primereact.min.css';         // Estilos de PrimeReact
+import 'primeicons/primeicons.css';                       // Iconos
+import 'primeflex/primeflex.css';                         // Grid y layout
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
